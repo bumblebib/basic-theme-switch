@@ -1,0 +1,39 @@
+:root{
+    --background: #FFF;
+    --highlightcolor: #FCF;
+    --fontcolor: #000;
+}
+.dark{
+    --background: #000;
+    --highlightcolor: rgb(163, 7, 163);
+    --fontcolor:#FFF;
+}
+*{
+    transition: ease-in-out 1s;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    display: block;
+    margin: 40vh auto 0 auto;
+    color: var(--fontcolor);
+}
+a.switcher{
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin: 5% auto;
+    border-radius: 30px;
+    background-color: var(--highlightcolor);
+    font-family: monospace;
+    line-height: 50px;
+    color: var(--fontcolor);
+    text-decoration: none;
+    font-weight: 400;
+}
