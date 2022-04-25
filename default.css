@@ -37,3 +37,6 @@ a.switcher{
     text-decoration: none;
     font-weight: 400;
 }
+a.switcher .dark:hover{
+    box-shadow: 0 0 25px #Fc9, 0 0 60px #Fc9, 0 0 120px #Fc9;
+}
